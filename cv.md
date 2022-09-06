@@ -19,13 +19,16 @@ My goals is to explore frontend development and hire as software developer.
 ***
 ## Code example:
 **Area of an arrow from CODWARS** *An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle.*
+
 ***
  ![rectangle](https://i.postimg.cc/WpSjbKvQ/rectangle.png)
 ***
+
 **a** and **b** *are integers and > 0 Write a function which returns the area of the arrow.*
 > function arrowArea(a,b) { 
 >    return (a * b) / 4; 
 >    }
+
 ***
 ## Courses:
  ![pasv](https://i.postimg.cc/NGyMSBTd/cv.png)
@@ -34,6 +37,7 @@ My goals is to explore frontend development and hire as software developer.
 ## Education
 > Bachelor of engineering and technology in Eurasian National University
 ***
+
 ## Languages: 
 * English- B1 (Intermediate) 
 * Russian- native 
