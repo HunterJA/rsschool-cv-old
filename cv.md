@@ -28,8 +28,8 @@ My goals is to explore frontend development and hire as software developer.
 > function arrowArea(a,b) { 
 >    return (a * b) / 4; 
 >    }
-
 ***
+
 ## Courses:
  ![pasv](https://i.postimg.cc/NGyMSBTd/cv.png)
 * JavaScript Syntax on the PASV (**completed**)
