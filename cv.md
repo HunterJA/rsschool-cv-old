@@ -1,5 +1,5 @@
 # Sultanbek Auyesbayev
-***
+
 ## My contacts: 
 * Phone: 77083108808 
 * E-mail: qs.sultanbek@gmail.com 
@@ -26,8 +26,8 @@ My goals is to explore frontend development and hire as software developer.
  ![rectangle](https://i.postimg.cc/WpSjbKvQ/rectangle.png)
 
 > function arrowArea(a,b) { 
->    return (a * b) / 4; 
->    }
+> return (a * b) / 4; 
+> }
 
 
 ## Courses:
