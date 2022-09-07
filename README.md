@@ -1,2 +1,2 @@
 # rsschool-cv
-https://HunterJA.github.io/rsschool-cv/
+https://HunterJA.github.io/rsschool-cv-html/
