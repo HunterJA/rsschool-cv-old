@@ -5,48 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <style>
+        .rightpic {
+         float: right; /* Выравнивание по правому краю */
+         margin: 0 0 5px 20px; /* Отступы вокруг фотографии */
+         margin-top: -11%; position: inherit;
+        }
+        p.dline {
+    line-height: 1em;
+   }
+    P {
+    line-height: 0.9em;
+   }
+       </style>
+    <link rel="stylesheet" href="/rsschool-cv/css/style.css">
 </head>
 <body>
     <div class="cv">
         <section>
-            <h1>Sultanbek Auyesbayev</h1>
-
+            <h4>Sultanbek Auyesbayev</h4>
+            <p><img src="img/photo.png" border="0" alt="Avatar" width="272" height="272" class="rightpic"></p>
+            <h3>My contacts</h3>
             <div class="contacts">
                 <div class="contact">
-                    <div class="contact_type">
-                        Github
-                    </div>
-                    <div class="contact__value">
-                        <a href="https://github.com/HunterJA">github.com/HunterJA</a>
-                    </div>
+                  <div class="contact__type">
+                    <b>Github:</b>
+                  </div>
+                  <div class="contact__value">
+                    <a href="https://github.com/HunterJA"> github.com/HunterJA</a>
+                  </div>
+                </div>
+                <div class="contact">
+                  <div class="contact__type">
+                    <b>Email:</b>
+                  </div>
+                  <div class="contact__value">
+                    <a href="mailto:qs.sultanbek@gmail.com">qs.sultanbek@gmail.com</a>
+                  </div>
                 </div>
                 <div class="contact">
                     <div class="contact__type">
-                        Email
+                    <b>Phone number:</b>
                     </div>
                     <div class="contact__value">
-                        <a href="mailto:qs.sultanbek@gmail.com">qs.sultanbek@gmail.com</a>
-                    </div>
-                    <div class="contact">
-                        <div class="contact__type">
-                            Phone number
-                        </div>
-                        <div class="contact__value">
-                            77083108808
-                        </div>
+                    &nbsp77083108808
                     </div>
                 </div>
-            </div>
+              </div>
+            <h3>About me</h3>
             <div class="description">
-                To describe about me, I always open to new challenges and opportunities.
-                My priority for now, is to qualify new profession and try my best with study in frontend development.
-                Work experience is assosiated with project management in telecommunication company, it is my first job which lasts for 5 years.
-                My goals is to explore frontend development and hire as software developer.
+                <p class="dline">To describe about me, I always open to new challenges and opportunities.</p>
+                <p class="dline">My priority for now, is to qualify new profession and try my best with study in frontend development.</p>
+                <p class="dline">Work experience is assosiated with project management in telecommunication company, it is my first job which lasts for 5 years.</p>
+                <p class="dline">My goals is to explore frontend development and hire as software developer.</p>
             </div>
         </section>
         <section>
-            <h3>Experience</h3>
+            <h3>My work experience</h3>
             <div class="experience">
                 <div class="experience__date">16.11.2017 - present</div>
                 <div class="experience__description">
@@ -69,12 +84,12 @@
             <h3>Code example</h3>
             <div>
                 <b>Area of an arrow from CODWARS</b> <i>An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle.</i>
-                <i>a and b are integers and > 0 Write a function which returns the area of the arrow.</i>
                 <p><img src="img/rectangle.png" border="0" alt="rectangle"></p>
-                <blockquote>function arrowArea(a,b) { </blockquote>
-                <blockquote>(a * b) / 4;</blockquote>
-                <blockquote>}</blockquote>
-            }
+                <i>a and b are integers and > 0 Write a function which returns the area of the arrow.</i>
+                <p><b>Code</b></p>
+                <i>function arrowArea(a,b) {</i>
+                    <i><p>(a * b) / 4;</p></i>
+                    <i><p>}</p></i>
             </div>
         </section>
         <section>

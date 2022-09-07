@@ -9,6 +9,11 @@ html{
    color: $secondary-color
 }
 
+h4 {
+    color:$primary-color;
+    font-size: xx-large;
+}
+
 h1 {
    color: $primary-color;
    margin-bottom: 0.25em;
@@ -28,12 +33,9 @@ a {
    color: $primary-color;
 }
 
-.contacts{
-   margin-bottom: 2em;
-}
-
 section {
    margin-bottom: 3em;
+   position: relative;
 }
 
 .cv {
@@ -41,14 +43,24 @@ section {
    margin: 0 auto;
 }
 
-.contact {
-   display: flex;
-
-   &__type {
-       min-width: 90px;
-   }
-}
-
+.contacts {
+    margin-bottom: 2em;
+  }
+  
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .contact__type {
+    min-width: 90px;
+  }
+  
+  .contact__value{
+    word-spacing: 0em;
+  }
+  
 .experience {
  display: flex;
  margin-bottom: 2em;
